@@ -1,2 +1,3 @@
 # Portfolio_Page
 Portfolio page using HTML,CSS,JavaScript
+You can check my projects in project section of this portfolio...
