@@ -1,0 +1,94 @@
+body{
+    background-color:rgb(184, 198, 214);
+
+}
+.yum{
+    background-color: darkgray;
+    width:30%;
+    position: relative;
+    left:500px;
+    
+
+}
+
+.first{
+    font-style: oblique;
+    color: darkgreen;
+}
+button{
+    color: rgb(4, 4, 119);
+}
+#meta{
+    background-color:blue;
+    position: relative;
+}
+.underline{
+    text-decoration: underline;
+    color: blanchedalmond;
+    text-align: right;
+    font-size:larger;
+    
+}
+.pa{
+    font-style: italic;
+    font-size: smaller;
+    color: antiquewhite;
+}
+#ha{
+    background-color:rgb(53, 2, 2);
+}
+.maa{
+
+    font-size:large;
+    background-color: azure;
+}
+#I{
+    background-color: aquamarine;
+    width: 400px;
+    float: left;
+    
+}
+#II{
+    background-color: azure;
+    width: 400px;
+    float: right;
+}
+#III{
+    background-color:cornflowerblue;
+    clear: both;
+}
+#IV{
+    background-color: darkkhaki;
+    position:relative;
+    
+
+}
+#V{
+    background-color: rgb(121, 96, 46);
+}
+#VI{
+    background-color: aquamarine;
+}
+#VII{
+    background-color: rgb(212, 148, 50);
+}
+#VIII{
+    background-color:violet;
+    width: 200px;
+    border: 3px 3px black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 7px grey;
+    margin-left: 500px;
+    
+}
+#IX{
+    background-color: violet;
+    width: 200px;
+    border: 3px 3px black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 7px grey;
+    margin-left: 500px;
+
+    
+    
+}

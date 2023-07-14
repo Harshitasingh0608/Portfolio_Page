@@ -1,0 +1,91 @@
+:root{
+    /*__________ Light Theme _________ */
+    --white_color: #f4efef;
+    --main_color: #520790;
+    --black_color: #111111;
+    --shadow_color: #4a4747;
+    --text_color: #222222;
+}
+body{
+    background: linear-gradient(rgb(83, 10, 83),rgb(40, 37, 37));
+    
+
+
+}
+.heading{
+    color: var(--white_color);
+    font-size: x-large;
+    font-family: 'Merienda', cursive; 
+    text-shadow: 5px 5px 7px black;
+    text-align: center;
+    text-decoration: wavy;
+}
+.heading span{
+    color: black;
+    text-shadow: 5px 5px 7px white;
+}
+.head1{
+    border: 2px rgb(30, 25, 25) double;
+    box-shadow: 4px 4px 7px white , -4px -4px 7px white;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.head2{
+    border: 2px rgb(37, 30, 30) double;
+    margin-left: 500px;
+    margin-right: 500px;
+    box-shadow: 4px 4px 7px white , -4px -4px 7px white;
+
+
+
+}
+.head3{
+    border: 2px rgb(34, 27, 27) double;
+    margin-left: 500px;
+    margin-right: 500px;
+    box-shadow: 4px 4px 7px white , -4px -4px 7px white;
+
+
+
+}
+.head4{
+    border: 2px rgb(37, 26, 26) double;
+    margin-left: 500px;
+    margin-right: 500px;
+    box-shadow: 4px 4px 7px white , -4px -4px 7px white;
+
+
+
+}
+.head5{
+    border: 2px rgb(30, 21, 21) double;
+    margin-left: 500px;
+    margin-right: 500px;
+    box-shadow: 4px 4px 7px white , -4px -4px 7px white;
+
+
+
+}
+.head6{
+    
+    margin-left: 450px;
+    margin-right: 500px;
+    text-shadow: 4px 4px 5px white;
+
+}
+
+
+
+
+p{
+    color: blanchedalmond;
+    text-shadow:2px 2px 4px black;
+    font-size: medium;
+}
+img{
+    border: 4px black double;
+    box-shadow: 3px 3px 5px white , -4px -4px 7px white;
+    height: 150px;
+    width:400px ;
+}
+

@@ -1,0 +1,113 @@
+html{
+    background-image: url(profileCard/background.png);
+}
+body{
+    font-size: x-large;
+    
+    
+}
+.tittle{
+    margin-left: 670px ;
+    
+}
+.body{
+    
+    margin-left: 550px;
+    width: 900px;
+    height: auto;
+    font-family: 'Merienda', cursive;
+    
+    
+    justify-content: center;
+    border:3px black double;
+    box-shadow: 10px 10px 4px rgb(79, 76, 76),-10px -10px 4px rgb(93, 85, 85);
+    background: linear-gradient(rgb(175, 161, 161),bisque);
+}
+.body h2{
+    text-align: center;
+    text-decoration: double;
+    text-shadow: 3px 3px 2px rgb(153, 237, 153);
+    font-size:xx-large;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+.image img{
+    margin-left: 320px;
+    border: 8px rgb(97, 97, 129) double;
+    box-shadow: 5px 5px 3px green;
+    border-radius: 20px;
+
+}
+.box1{
+    border: 5px rgb(247, 247, 178) solid;
+    border-radius: 20px;
+    margin-left:300px ;
+    width: 350px;
+
+}
+.box1 .input-field{
+    border-radius: 20px;
+    border:4px rgb(132, 128, 128) solid;
+    height: 20px;
+    box-shadow: 3px 3px 2px rgb(72, 64, 64);
+    width: 320px;
+}
+.box2{
+    border:5px  rgb(247, 247, 178) solid;
+    border-radius: 20px;
+    margin-left: 300px;
+    width: 350px;
+}
+.box3{
+    border: 5px rgb(247, 247, 178) solid;
+    border-radius: 20px;
+    margin-left:300px ;
+    width: 350px;
+
+
+}
+.box3 #city{
+    border:4px rgb(132, 128, 128) solid;
+    height: 40px;
+    box-shadow: 3px 3px 2px rgb(72, 64, 64);
+    width: 320px;
+    border-radius: 20px;
+
+}
+.box4{
+    border:5px  rgb(247, 247, 178) solid;
+    border-radius: 20px;
+    margin-left: 300px;
+    width: 350px;
+
+}
+textarea{
+    box-shadow: 5px 5px white ;
+    border:5px  rgb(11, 11, 10) solid;
+    margin-left: 300px;
+    width: 350px;
+
+}
+.submit{
+    border:5px  rgb(40, 40, 32) solid;
+    border-radius: 20px;
+    margin-left: 700px;
+    width: 100px;
+
+}
+.submit input{
+    justify-content: right;
+    border: 3px blue solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+.submit input:hover{
+    background-color: aquamarine;
+
+}
+
+
+    

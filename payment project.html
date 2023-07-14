@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="payment.css"></link>
+</head>
+<body>
+    <form action="/action.php">
+        <h1 align="center"><i>Payment Form</i></h1>
+        <p>Required field are followed by *</p>
+        <h2><b>Contact Information</b></h2>
+    
+<fieldset><legend><i><b>Name</b></i></legend>
+    <p>Name:*<input type="text" name="fname" placeholder="Frontname" required>
+                <input type="text" placeholder="Middlename">
+                <input type="text" placeholder="Lastname" required></p>
+</fieldset>
+
+<fieldset> <legend><i><b>EMail</b></i></legend>
+    <p>email:*
+        <input type="email" name="email" placeholder="email" required></p>
+</fieldset>
+
+<fieldset><legend><i><b>Gender</b></i></legend>
+                <p>Gender:*
+                    Male <input type="radio" name="Gender" id="male" required >
+                    Female<input type="radio" name="Gender" id="female" required>
+                </p>
+</fieldset>
+
+ <fieldset>
+    <legend><i><b>Address,PinCod</b></i></legend>
+                <p>Address:<textarea name="Address" id="Address" col="3" row="7"></textarea></p>
+    
+                 <p> PinCode:*<input type="number" name="Pin Code" id="Pin Code" placeholder="Pincode" required ></p>
+
+</fieldset>
+
+<fieldset><legend><i><b>Category</b></i></legend>
+    <p>Category:*
+            <input type="radio" name="Category" value="General" required>General
+            <input type="radio" name="Category"value="SC" required>SC
+            <input type="radio" name="Category"value="BC" required>BC
+            <input type="radio" name="Category"value="Others" required>Others</p>
+</fieldset>
+<fieldset><legend><i><b>City</b></i></legend>
+<p>City:*
+    <select name="city" id="city" required>
+        <option value="">"--Select your City--"</option>
+    <option value="Andhra Pradesh" >Andhra Pradesh</option>
+    <option value="Arunachal Pradesh" >ArunachalPradesh</option>
+    <option value="Bihar" >Bihar</option>
+    <option value="Chattisgarh" >Chattisgarh</option>
+    <option value="Delhi" >Delhi</option>
+    <option value="Gujrat" >Gujrat</option>
+    </select>
+</p>
+    </fieldset>
+</p>
+<hr>
+<h2><b>Payment Information</b></h2>
+<fieldset><legend><b><i>Card Type</i></b></legend>
+    <p>
+        Card Type:*
+        <select name="Card Type" id="card type" required>
+            <option value="">"--Select The Card Type--"</option>
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Debit">Debit</option>
+            <option value="Master Card">Master Card</option>
+        </select>
+    </p>
+
+</fieldset>
+<fieldset><legend><i><b>Card Number</b></i></legend>
+<p>
+    Card Number:*
+    <input type="number" id="card number">
+</p>
+</fieldset>
+<fieldset>
+    <legend><i><b>Expiration Date</b></i></legend>
+<p>
+    Expiration Date:*
+    <input type="date" name="exp_date" id="Expiration Date">
+</p>
+</fieldset>
+<fieldset><legend><i><b>CVV</b></i></legend>
+<p>
+    CVV:*
+    <input type="password" name="CVV" id="CVV" placeholder="password">
+</p>
+</fieldset>
+<h4>
+                      <p>Time to Pay Now...</p>
+
+<pre>       <input type="submit" value="Pay Now" placeholder="Pay Now">       </pre>
+<pre>       <input type="Reset" value="Reset" placeholder="Reset">            </pre>
+</h4>
+
+ </form>
+</body>
+</html>
